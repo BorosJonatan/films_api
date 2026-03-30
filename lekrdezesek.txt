@@ -1,0 +1,9 @@
+/*SELECT * FROM films f 
+JOIN film_actor fa ON f.film_id = fa.film_id 
+JOIN actors a ON fa.actor_id = a.actor_id
+where f.film_id = 1*/
+
+/*SELECT * FROM actors a
+JOIN film_actor fa ON a.actor_id = fa.film_id 
+JOIN films f ON fa.actor_id = f.film_id
+where a.actor_id = 3*/
