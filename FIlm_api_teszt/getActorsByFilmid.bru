@@ -1,0 +1,15 @@
+meta {
+  name: getActorsByFilmid
+  type: http
+  seq: 9
+}
+
+get {
+  url: http://localhost:8000/films/1/actors
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

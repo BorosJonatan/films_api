@@ -1,0 +1,22 @@
+meta {
+  name: newFilm
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8000/films
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "Simák"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

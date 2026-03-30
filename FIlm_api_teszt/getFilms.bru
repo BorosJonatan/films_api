@@ -1,0 +1,16 @@
+meta {
+  name: getFilms
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:8000/films
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

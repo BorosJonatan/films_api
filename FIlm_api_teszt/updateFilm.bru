@@ -1,0 +1,15 @@
+meta {
+  name: updateFilm
+  type: http
+  seq: 10
+}
+
+put {
+  url: http://localhost:8000/films/8
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
